@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--text animation link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body > 
+<!-- header section starts  -->
+<header> 
+    
+    <div class="user">
+        <img src="img/profile1.jpeg" alt="">
+        <h3 class="name ">Dinesh Kumar</h3>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<i class='bx bxs-sun bx-flip-horizontal sun' id="theme-icon"></i>
+
+<!-- home section starts  -->
+
+<section class="home animate__animated animate__slideInRight" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1 >I'M <span>Dinesh Kumar</span></h1>
+    <p>I'm a Fresher Looking for Job in Web Development/Software Development
+    </p>
+
+    <div class="home-btn">
+        <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+        <a href="img/profile1.jpeg" download="Resume_Dineshkumar D"><button class="btn">Download CV<i class="fas fa-user"></i></button></a>
+    </div>
+    
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> Name : </span>Dinesh Kumar</h3>
+        <h3> <span> Age : </span> 21 </h3>
+        <h3> <span> Qualification : </span> BE-Electrical And Electronics Engineering </h3>
+        <h3> <span> Language : </span>Tamil, English </h3>
+        <h3> <span> Programmig Languages : </span>Python , C programmimg </h3>
+        <h3> <span> Web Development : </span>HTML , CSS , JavaScript </h3>
+    
+    </div>
+    
+
+    
+
+
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018-2022</span>
+            <h3>BE-Electrical And Electronics Engineering</h3>
+            <p>PGP College of Engineering and Technology,Namakkal</p>
+            <p>Pass Percentage - 7.8 CGPA</p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>HSC</h3>
+            <p>St.Andrews Higher Secondry School,Manapparai</p>
+            <p>Pass Percentage - 74.3%</p>
+            </div>
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2016</span>
+            <h3>SSLC</h3>
+            <p>St.Andrews Higher Secondry School,Manapparai</p>
+            <p>Pass Percentage - 82.3%</p>
+            </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- portfolio section starts  -->
+ 
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>projects</span> </h1>
+
+<div class="box-container">
+
+    
+    <div class="box ecommerce">
+            <div class="details">
+            <h1>E-Commerce Website</h1>
+            <p>a functional E-commerce Website devoloped  using HTML,CSS and JavaScript</p>
+            <a href=""><button>View More</button></a>
+            </div>
+    </div>
+ 
+    <div class="box sudoku">
+        <div class="details">
+            <h1>GUI based Sudoku Solver</h1>
+            <p>Sudoku solver using backtracking alogorithm and GUI using pygame</p>
+            <a href=""><button>View More</button></a>
+            </div>
+    </div>
+
+
+    <div class="box personal-portfolio">
+        <div class="details">
+            <h1>Presonal-Portfolio</h1>
+            <p>Responsive personal portfoloi site using HTML,CSS and JavaScript</p>
+            <a href=""><button>View More</button></a>
+            </div>
+    </div>
+
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> ddineshkumar496@gmail.com </h3>
+            <h3> <i class="fas fa-phone"></i> +91 8838716439 </h3>
+        </div>
+
+    </div>
+
+    <form action="https://formsubmit.co/ddineshkumar496@gmail.com" method="POST" target="_parent">
+
+        <input type="text" name="Name" placeholder="Name" class="box" required>
+        <input type="email" name="Email" placeholder="Email" class="box" required>
+        <textarea name="Message" id="" cols="30" rows="10" class="box message" placeholder="message" required></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+</div>
+</section>
+<!-- contact section ends -->
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
